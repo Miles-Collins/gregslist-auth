@@ -3,7 +3,7 @@ import { BadRequest } from "../utils/Errors"
 
 class CarsService {
   async getCars() {
-    let cars = await dbContext.Cars.find
+    let cars = await dbContext.Cars.find()
     return cars
   }
   async createCar(carData) {

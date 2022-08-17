@@ -1,7 +1,7 @@
 import { ProxyState } from "../AppState.js";
 import { Pop } from "../Utils/Pop.js";
 import { housesService } from "../Services/HousesService.js";
-import { getHouseForm } from "../Components/HouseForm.js";
+import { getHouseForm } from "./Components/HouseForm.js";
 
 
 function _drawHouses(){
